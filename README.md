@@ -36,11 +36,11 @@
       </td>
       <td>
         <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
-          <img src="https://res.cloudinary.com/dri8yrmkt/image/upload/v1745304408/a086715fca9cc51786a32650eff16851_kgq9qf.jpg" width="120" alt="Top Right" style="border-radius: 10px;"/>
-          <img src="https://res.cloudinary.com/dri8yrmkt/image/upload/v1745304408/491349475_1345708746551822_3806166969863956497_n_dpmzed.jpg" width="120" alt="Bottom Right" style="border-radius: 10px;"/>
-        </div>
-      </td>
-    </tr>
+         
+  <img src="https://res.cloudinary.com/dri8yrmkt/image/upload/v1745304408/491349475_1345708746551822_3806166969863956497_n_dpmzed.jpg" width="120" alt="Bottom Right" style="border-radius: 30px;"/>
+  </div>
+  </td>
+  </tr>
   </table>
 </div>
 ---

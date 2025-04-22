@@ -1,21 +1,5 @@
 # 👋 Hi there! Welcome to my GitHub Profile  
 
-<p align="center">
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmIycXlqcXY1ZTY4ams4dXVtOG84NDZ2dGxia2E2eDdqd253cXpleiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f7GZ9Y4boifRmBa9Hj/giphy.gif" width="150" alt="Cờ Việt Nam tung bay"/>
-</p>
-
----
-
-## 🇻🇳 A Little Glimpse of Me
-
-<div align="center">
-  <img src="https://res.cloudinary.com/dri8yrmkt/image/upload/v1745304408/a086715fca9cc51786a32650eff16851_kgq9qf.jpg" width="150" style="border-radius: 12px; margin: 10px"/>
-  <img src="https://res.cloudinary.com/dri8yrmkt/image/upload/v1745304411/download_gyslv6.png" width="200" style="border-radius: 12px; margin: 10px"/>
-  <img src="https://res.cloudinary.com/dri8yrmkt/image/upload/v1745304408/491349475_1345708746551822_3806166969863956497_n_dpmzed.jpg" width="150" style="border-radius: 12px; margin: 10px"/>
-</div>
-
----
-
 ## 🚀 About Me  
 
 - 🌱 I’m currently learning **React** and **Node.js** to expand my full-stack development skills.  
@@ -35,6 +19,20 @@
 - **Database:** MongoDB, Mongoose  
 - **Version Control:** Git, GitHub  
 - **Other Tools:** VSCode, Postman, Docker  
+
+---
+
+## ❤️ Things I Love
+
+<p align="center">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmIycXlqcXY1ZTY4ams4dXVtOG84NDZ2dGxia2E2eDdqd253cXpleiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f7GZ9Y4boifRmBa9Hj/giphy.gif" width="180" alt="Vietnam Flag"/>
+</p>
+
+<div align="center" style="margin-top: 20px;">
+  <img src="https://res.cloudinary.com/dri8yrmkt/image/upload/v1745304408/a086715fca9cc51786a32650eff16851_kgq9qf.jpg" width="160" style="border-radius: 12px; margin: 10px"/>
+  <img src="https://res.cloudinary.com/dri8yrmkt/image/upload/v1745304411/download_gyslv6.png" width="200" style="border-radius: 12px; margin: 10px"/>
+  <img src="https://res.cloudinary.com/dri8yrmkt/image/upload/v1745304408/491349475_1345708746551822_3806166969863956497_n_dpmzed.jpg" width="160" style="border-radius: 12px; margin: 10px"/>
+</div>
 
 ---
 

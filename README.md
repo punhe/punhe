@@ -1,7 +1,6 @@
 # 👋 Hi there! Welcome to my GitHub Profile
 
-![Cờ nước CHXHCN Việt Nam tung bay](https://i.makeagif.com/media/10-26-2020/WL4oDn.gif)
-
+![Cờ Việt Nam tung bay](https://i.imgur.com/V9cYQgh.gif)
 ## 🚀 About Me
 
 - 🌱 I’m currently learning **React** and **Node.js** to expand my full-stack development skills.

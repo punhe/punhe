@@ -1,31 +1,34 @@
-# 👋 Hi there! Welcome to my GitHub Profile
+# 👋 Hi there! Welcome to my GitHub Profile  
+![Cờ Việt Nam tung bay](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmIycXlqcXY1ZTY4ams4dXVtOG84NDZ2dGxia2E2eDdqd253cXpleiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f7GZ9Y4boifRmBa9Hj/giphy.gif)
 
-![Cờ Việt Nam tung bay](https://i.imgur.com/V9cYQgh.gif)
+<table>
+  <tr>
+    <td><img src="https://res.cloudinary.com/dri8yrmkt/image/upload/v1745304411/download_gyslv6.png" width="200"/></td>
+    <td><img src="https://res.cloudinary.com/dri8yrmkt/image/upload/v1745304408/a086715fca9cc51786a32650eff16851_kgq9qf.jpg" width="200"/></td>
+    <td><img src="https://res.cloudinary.com/dri8yrmkt/image/upload/v1745304408/491349475_1345708746551822_3806166969863956497_n_dpmzed.jpg" width="200"/></td>
+  </tr>
+</table>
+
 ## 🚀 About Me
 
-- 🌱 I’m currently learning **React** and **Node.js** to expand my full-stack development skills.
-- 💻 Passionate about building modern web applications with **MongoDB**, **Express**, **React**, and **Node.js** (MERN Stack).
+- 🌱 I’m currently learning **React** and **Node.js** to expand my full-stack development skills.  
+- 💻 Passionate about building modern web applications with **MongoDB**, **Express**, **React**, and **Node.js** (MERN Stack).  
 - 💬 Feel free to ask me about **React**, **Node.js**, or **MongoDB**!
 
 ## 💡 What I’m Working On
 
-- 🌟 Enhancing my proficiency in building full-stack applications with a focus on performance and scalability.
-- 🔧 Experimenting with **TypeScript** to level up my JavaScript skills.
+- 🌟 Enhancing my proficiency in building full-stack applications with a focus on performance and scalability.  
+- 🔧 Experimenting with **TypeScript** to level up my JavaScript skills.  
 - 🚧 Working on several open-source projects to apply and share my learnings.
-<!--
-## 🌐 Connect with Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20My%20Site-orange?style=flat-square&logo=github)](https://www.yourportfolio.com)
--->
 
 ## 🛠 Tech Stack
 
-- **Frontend:** React, Redux, HTML5, CSS3, JavaScript (ES6+)
-- **Backend:** Node.js, Express, REST APIs
-- **Database:** MongoDB, Mongoose
-- **Version Control:** Git, GitHub
-- **Other Tools:** VSCode, Postman, Docker
+- **Frontend:** React, Redux, HTML5, CSS3, JavaScript (ES6+)  
+- **Backend:** Node.js, Express, REST APIs  
+- **Database:** MongoDB, Mongoose  
+- **Version Control:** Git, GitHub  
+- **Other Tools:** VSCode, Postman, Docker  
+
 ---
 
 ⭐️ **Feel free to check out my projects and get in touch!** ⭐️

@@ -25,13 +25,18 @@
 ## ❤️ Things I Love
 
 <p align="center">
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmIycXlqcXY1ZTY4ams4dXVtOG84NDZ2dGxia2E2eDdqd253cXpleiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f7GZ9Y4boifRmBa9Hj/giphy.gif" width="180" alt="Vietnam Flag"/>
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmIycXlqcXY1ZTY4ams4dXVtOG84NDZ2dGxia2E2eDdqd253cXpleiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f7GZ9Y4boifRmBa9Hj/giphy.gif" width="300" alt="Vietnam Flag"/>
 </p>
 
-<div align="center" style="margin-top: 20px;">
-  <img src="https://res.cloudinary.com/dri8yrmkt/image/upload/v1745304408/a086715fca9cc51786a32650eff16851_kgq9qf.jpg" width="160" style="border-radius: 12px; margin: 10px"/>
-  <img src="https://res.cloudinary.com/dri8yrmkt/image/upload/v1745304411/download_gyslv6.png" width="200" style="border-radius: 12px; margin: 10px"/>
-  <img src="https://res.cloudinary.com/dri8yrmkt/image/upload/v1745304408/491349475_1345708746551822_3806166969863956497_n_dpmzed.jpg" width="160" style="border-radius: 12px; margin: 10px"/>
+<div align="center" style="display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap;">
+
+  <img src="https://res.cloudinary.com/dri8yrmkt/image/upload/v1745304411/download_gyslv6.png" width="260" alt="Long Image" style="border-radius: 10px;"/>
+
+  <div style="display: flex; flex-direction: column; gap: 10px;">
+    <img src="https://res.cloudinary.com/dri8yrmkt/image/upload/v1745304408/a086715fca9cc51786a32650eff16851_kgq9qf.jpg" width="120" alt="Top Image" style="border-radius: 10px;"/>
+    <img src="https://res.cloudinary.com/dri8yrmkt/image/upload/v1745304408/491349475_1345708746551822_3806166969863956497_n_dpmzed.jpg" width="120" alt="Bottom Image" style="border-radius: 10px;"/>
+  </div>
+
 </div>
 
 ---

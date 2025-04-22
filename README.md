@@ -35,7 +35,7 @@
         <img src="https://res.cloudinary.com/dri8yrmkt/image/upload/v1745304411/download_gyslv6.png" width="260" alt="Long Image" style="border-radius: 10px;"/>
       </td>
       <td>
-        <div style="display: flex; flex-direction: column; gap: 10px;">
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
           <img src="https://res.cloudinary.com/dri8yrmkt/image/upload/v1745304408/a086715fca9cc51786a32650eff16851_kgq9qf.jpg" width="120" alt="Top Right" style="border-radius: 10px;"/>
           <img src="https://res.cloudinary.com/dri8yrmkt/image/upload/v1745304408/491349475_1345708746551822_3806166969863956497_n_dpmzed.jpg" width="120" alt="Bottom Right" style="border-radius: 10px;"/>
         </div>

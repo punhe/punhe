@@ -14,9 +14,9 @@
 
 ## 🛠 Tech Stack
 
-- **Frontend:** React, Redux, HTML5, CSS3, JavaScript (ES6+)  
-- **Backend:** Node.js, Express, REST APIs  
-- **Database:** MongoDB, Mongoose  
+- **Frontend:** React, Redux, HTML5, CSS3, JavaScript (ES6+), Typescript  
+- **Backend:** Node.js, Express, REST APIs, Prisma, Nest.js  
+- **Database:** MongoDB, Mongoose, MySql, PortGre  
 - **Version Control:** Git, GitHub  
 - **Other Tools:** VSCode, Postman, Docker  
 

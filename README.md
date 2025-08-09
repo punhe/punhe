@@ -16,7 +16,7 @@
 
 - **Frontend:** React, Redux, HTML5, CSS3, JavaScript (ES6+), Typescript  
 - **Backend:** Node.js, Express, REST APIs, Prisma, Nest.js  
-- **Database:** MongoDB, Mongoose, MySql, PortGre  
+- **Database:** MongoDB, Mongoose, MySql, PortGreSQL  
 - **Version Control:** Git, GitHub  
 - **Other Tools:** VSCode, Postman, Docker  
 

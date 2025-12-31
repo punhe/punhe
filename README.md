@@ -1,24 +1,20 @@
-# 👋 Hi there! Welcome to my GitHub Profile  👋👋
+<h1 align="center">
+  Hi, I'm Hùng <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"/>
+</h1>
 
-## 🚀 About Me  
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=520&lines=MERN+Stack+Developer;React+%7C+Node.js+%7C+MongoDB;Learning+TypeScript+%26+NestJS" />
+</p>
 
-- 🌱 I’m currently learning **React** and **Node.js** to expand my full-stack development skills.  
-- 💻 Passionate about building modern web applications with **MongoDB**, **Express**, **React**, and **Node.js** (MERN Stack).  
-- 💬 Feel free to ask me about **React**, **Node.js**, or **MongoDB**!
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,redux,ts,nodejs,express,nestjs,mongodb,mysql,postgres,prisma,docker,git,github,vscode,postman&perline=8" />
+</p>
 
-## 💡 What I’m Working On
+<p align="center">
+  <img src="https://img.shields.io/badge/MERN-Stack?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-Learning?style=for-the-badge&logo=typescript&logoColor=white" />
+</p>
 
-- 🌟 Enhancing my proficiency in building full-stack applications with a focus on performance and scalability.  
-- 🔧 Experimenting with **TypeScript** to level up my JavaScript skills.  
-- 🚧 Working on several open-source projects to apply and share my learnings.
-
-## 🛠 Tech Stack
-
-- **Frontend:** React, Redux, HTML5, CSS3, JavaScript (ES6+), Typescript  
-- **Backend:** Node.js, Express, REST APIs, Prisma, Nest.js  
-- **Database:** MongoDB, Mongoose, MySql, PortGreSQL  
-- **Version Control:** Git, GitHub  
-- **Other Tools:** VSCode, Postman, Docker  
 
 ---
 

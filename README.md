@@ -1,18 +1,49 @@
-<h1 align="center">
-  Hi, I'm Hùng <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"/>
-</h1>
+<h1 align="center">Le Manh Hung</h1>
+<h3 align="center">Developer</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=520&lines=MERN+Stack+Developer;React+%7C+Node.js+%7C+MongoDB;Learning+TypeScript+%26+NestJS" />
+  <a href="mailto:hunglm410.dev@gmail.com">Email</a> |
+  <a href="https://github.com/punhe">GitHub</a> |
+  <a href="https://punhe.vercel.app/">Portfolio</a>
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,redux,ts,nodejs,express,nestjs,mongodb,mysql,postgres,prisma,docker,git,github,vscode,postman&perline=8" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&center=true&vCenter=true&width=700&lines=Frontend-focused+Web+Developer;React+%7C+Next.js+%7C+TypeScript;Building+clean+and+practical+web+products" />
+</p>
+
+## About Me
+
+I build modern web applications with a strong focus on frontend experience, responsive UI, and practical product delivery.
+
+- Frontend-focused with experience in `React`, `Next.js`, `Vue`, and `TypeScript`
+- Comfortable working across the stack with `Node.js`, `MongoDB`, `MySQL`, and `Docker`
+- Experienced in client work, internal tools, and real-world product development
+
+## Highlight Projects
+
+- `Academix`: AI-powered training and marketplace platform
+- `EcoFit`: Full-stack ecommerce project built independently
+- Client projects: LMS portal and U.S. real estate website
+
+## Tech Stack
+
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vue,nuxtjs,nodejs,mongodb,mysql,docker,git,github" />
+</p>
+
+## GitHub Activity
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=punhe&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://streak-stats.demolab.com?user=punhe&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/MERN-Stack?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-Learning?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=punhe&theme=tokyo-night&hide_border=true" />
+</p>
+
+<p align="center">
+  Open to Web Developer, Frontend Developer, and Full Stack opportunities.
 </p>
 
 

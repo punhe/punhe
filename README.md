@@ -34,7 +34,6 @@ I build modern web applications with a strong focus on frontend experience, resp
 ## GitHub Activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=punhe&show_icons=true&theme=tokyonight&hide_border=true" />
   <img height="165" src="https://streak-stats.demolab.com?user=punhe&theme=tokyonight&hide_border=true" />
 </p>
 

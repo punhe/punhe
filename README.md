@@ -31,6 +31,12 @@ I build modern web applications with a strong focus on frontend experience, resp
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vue,nuxtjs,nodejs,mongodb,mysql,docker,git,github" />
 </p>
 
+## GitHub Stats
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=punhe&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=punhe&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+</p>
+
 ## GitHub Activity
 
 <p align="center">

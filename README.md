@@ -17,7 +17,7 @@ I build modern web applications with a strong focus on frontend experience, resp
 
 - Frontend-focused with experience in `React`, `Next.js`, `Vue`, and `TypeScript`
 - Comfortable working across the stack with `Node.js`, `MongoDB`, `MySQL`, and `Docker`
-- Experienced in client work, internal tools, and real-world product development
+- Experienced in client work, internal tools, and real-world product development.
 
 ## Highlight Projects
 

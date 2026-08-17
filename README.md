@@ -32,9 +32,10 @@ I build modern web applications with a strong focus on frontend experience, resp
 </p>
 
 ## GitHub Stats
+
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=punhe&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="165" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=punhe&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=punhe&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=punhe&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165" />
 </p>
 
 ## GitHub Activity
@@ -50,7 +51,6 @@ I build modern web applications with a strong focus on frontend experience, resp
 <p align="center">
   Open to Web Developer, Frontend Developer, and Full Stack opportunities.
 </p>
-
 
 ---
 
@@ -74,6 +74,7 @@ I build modern web applications with a strong focus on frontend experience, resp
     </tr>
   </table>
 </div>
+
 ---
 
 <p align="center"><b>⭐️ Feel free to check out my projects and get in touch! ⭐️</b></p>

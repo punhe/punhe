@@ -1,14 +1,14 @@
-<h1 align="center">Le Manh Hung</h1>
-<h3 align="center">Developer</h3>
-
 <p align="center">
-  <a href="mailto:hunglm410.dev@gmail.com">Email</a> |
-  <a href="https://github.com/punhe">GitHub</a> |
-  <a href="https://punhe.vercel.app/">Portfolio</a>
+  <img src="https://www.gitskins.com/api/section/hero?username=punhe&theme=midnight&style=aura" width="100%" alt="Le Manh Hung" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&center=true&vCenter=true&width=700&lines=Frontend-focused+Web+Developer;React+%7C+Next.js+%7C+TypeScript;Building+clean+and+practical+web+products" />
+  <a href="mailto:hunglm410.dev@gmail.com"><img src="https://img.shields.io/badge/Email-hunglm410.dev%40gmail.com-818cf8?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" /></a>
+  <a href="https://punhe.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-punhe.vercel.app-818cf8?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117" /></a>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=818CF8&center=true&vCenter=true&width=700&lines=Frontend-focused+Web+Developer;React+%7C+Next.js+%7C+TypeScript;Building+clean+and+practical+web+products" />
 </p>
 
 ## About Me
@@ -25,27 +25,24 @@ I build modern web applications with a strong focus on frontend experience, resp
 - `EcoFit`: Full-stack ecommerce project built independently
 - Client projects: LMS portal and U.S. real estate website
 
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/projects?username=punhe&theme=midnight&style=aura" width="100%" alt="Projects" />
+</p>
+
 ## Tech Stack
 
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vue,nuxtjs,nodejs,mongodb,mysql,docker,git,github" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vue,nuxtjs,nodejs,mongodb,mysql,docker,git,github&perline=7" />
 </p>
 
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=punhe&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=punhe&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165" />
-</p>
-
-## GitHub Activity
-
-<p align="center">
-  <img height="165" src="https://streak-stats.demolab.com?user=punhe&theme=tokyonight&hide_border=true" />
+  <img src="https://www.gitskins.com/api/section/stats?username=punhe&theme=midnight&style=aura" width="100%" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=punhe&theme=tokyo-night&hide_border=true" />
+  <img src="https://www.gitskins.com/api/section/heatmap?username=punhe&theme=midnight&style=aura" width="100%" alt="Contribution Activity" />
 </p>
 
 <p align="center">
@@ -76,5 +73,9 @@ I build modern web applications with a strong focus on frontend experience, resp
 </div>
 
 ---
+
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/social?username=punhe&theme=midnight&style=aura" width="100%" alt="Connect" />
+</p>
 
 <p align="center"><b>⭐️ Feel free to check out my projects and get in touch! ⭐️</b></p>

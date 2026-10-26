@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - scripts/generate.mjs
+      - assets/doodles/**
 
 permissions:
   contents: write

@@ -1,6 +1,6 @@
 // Generates the profile README cards in ./cards from live GitHub data.
 // Usage: GITHUB_TOKEN=... node scripts/generate.mjs
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 const USER = "punhe";
 const OUT = new URL("../cards/", import.meta.url);
@@ -125,7 +125,7 @@ async function header() {
       <text x="${cx + 28}" y="234.5" font-size="12" fill="${C.text}">${esc(c.label)}</text></g>`;
     cx += w + 8;
   }
-  const art = illustration(640, 136);
+  const art = await illustration(640, 136);
   return svg(h, `
   <defs>
     <radialGradient id="glow" cx="50%" cy="50%" r="50%">
@@ -147,36 +147,46 @@ async function header() {
   ${chips}`);
 }
 
-// Laptop on an orbit, centered on (cx, cy). The orbit dots drift slowly.
-function illustration(cx, cy) {
-  const rings = [
-    [150, 52, -12], [120, 40, -12], [175, 66, 8],
-  ].map(([rx, ry, rot]) =>
-    `<ellipse cx="${cx}" cy="${cy}" rx="${rx}" ry="${ry}" transform="rotate(${rot} ${cx} ${cy})" fill="none" stroke="${C.green}" stroke-opacity="0.18"/>`).join("");
-  const stars = [[-150, -95, 1.4], [120, -110, 1.1], [165, 60, 1.3], [-120, 95, 1], [60, -60, 0.9], [-60, 70, 1], [175, -40, 0.8]]
+// Open Doodles scenes (CC0, Pablo Stanley) from assets/doodles, centered on
+// (cx, cy). The scenes cross-fade in a loop, each with a short caption.
+const DOODLES = new URL("../assets/doodles/", import.meta.url);
+const scenes = [
+  { file: "Selfie", caption: "saying hi" },
+  { file: "SittingReading", caption: "learning something new" },
+  { file: "ReadingSide", caption: "reading the docs" },
+  { file: "Meditating", caption: "debugging calmly" },
+  { file: "Groovy", caption: "shipping it" },
+];
+
+async function illustration(cx, cy) {
+  const stars = [[-150, -95, 1.4], [120, -110, 1.1], [165, 60, 1.3], [-120, 95, 1], [60, -60, 0.9], [-160, 30, 1], [175, -40, 0.8]]
     .map(([dx, dy, r]) => `<circle cx="${cx + dx}" cy="${cy + dy}" r="${r}" fill="${C.text}" opacity="0.55"/>`).join("");
-  const code = [[0, 46, C.green], [10, 30, C.muted], [10, 52, "#79c0ff"], [20, 24, C.muted], [10, 40, "#d2a8ff"], [0, 18, C.green]]
-    .map(([indent, w, col], i) => `<rect x="${cx - 52 + indent}" y="${cy - 40 + i * 10}" width="${w}" height="4" rx="2" fill="${col}" opacity="0.85"/>`).join("");
-  const orbiter = (r, ry, dur, delay, col) => `
-    <g transform="translate(${cx} ${cy}) rotate(-12) scale(1 ${ry / r})">
-      <circle r="3.2" fill="${col}" cx="${r}" cy="0">
-        <animateTransform attributeName="transform" type="rotate" from="${delay} 0 0" to="${delay + 360} 0 0" dur="${dur}s" repeatCount="indefinite"/>
-      </circle>
-    </g>`;
+  const w = 300, h = w * 0.75;
+  const caption = (t) => `<text x="${cx}" y="${cy + 122}" font-size="11.5" fill="${C.green}" text-anchor="middle" font-family="Consolas, 'SFMono-Regular', Menlo, monospace">&gt; ${esc(t)}</text>`;
+
+  // Each scene shows for `slot` seconds with a short fade, on one shared loop.
+  const slot = 4, n = scenes.length, fade = 0.15 / n;
+  const fader = (i) => {
+    const a = i / n, b = (i + 1) / n;
+    const keys = [[0, 0], [a, 0], [a + fade, 1], [b - fade, 1], [b, 0], [1, 0]]
+      .filter(([t], k, all) => k === 0 || t > all[k - 1][0]);
+    if (i === 0) keys[0][1] = 1, keys.splice(1, 1);
+    return `<animate attributeName="opacity" dur="${n * slot}s" repeatCount="indefinite"
+      keyTimes="${keys.map(([t]) => +t.toFixed(4)).join(";")}" values="${keys.map(([, v]) => v).join(";")}"/>`;
+  };
+
+  let layers = "";
+  for (const [i, s] of scenes.entries()) {
+    const doodle = (await readFile(new URL(s.file + ".svg", DOODLES), "utf8"))
+      .replace(/^<svg[^>]*>/, "").replace(/<\/svg>\s*$/, "");
+    layers += `<g opacity="${i ? 0 : 1}">${fader(i)}
+    <svg x="${cx - w / 2}" y="${cy - h / 2 - 4}" width="${w}" height="${h}" viewBox="0 0 1024 768">${doodle}</svg>
+    ${caption(s.caption)}</g>\n  `;
+  }
   return `
   <circle cx="${cx}" cy="${cy}" r="170" fill="url(#glow)"/>
-  ${rings}${stars}
-  <g>
-    <rect x="${cx - 66}" y="${cy - 56}" width="132" height="86" rx="8" fill="#0b1016" stroke="${C.green}" stroke-opacity="0.55" stroke-width="1.5"/>
-    <rect x="${cx - 60}" y="${cy - 50}" width="120" height="74" rx="4" fill="#0f1a14"/>
-    ${code}
-    <rect x="${cx + 8}" y="${cy + 10}" width="7" height="3" rx="1.5" fill="${C.green}">
-      <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
-    </rect>
-    <path d="M${cx - 84} ${cy + 32} h168 l-10 12 h-148 z" fill="#121a22" stroke="${C.green}" stroke-opacity="0.45"/>
-  </g>
-  ${orbiter(150, 52, 18, 0, C.green)}
-  ${orbiter(175, 66, 26, 140, "#79c0ff")}`;
+  ${stars}
+  ${layers}`;
 }
 
 function stats(s) {

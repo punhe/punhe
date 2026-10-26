@@ -1,52 +1,27 @@
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/hero?username=punhe&theme=midnight&style=aura" width="100%" alt="Le Manh Hung" />
+  <img src="./cards/header.svg" width="100%" alt="Hi, I'm Hùng. Frontend-focused Web Developer" />
 </p>
 
 <p align="center">
-  <a href="mailto:hunglm410.dev@gmail.com"><img src="https://img.shields.io/badge/Email-hunglm410.dev%40gmail.com-818cf8?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" /></a>
-  <a href="https://punhe.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-punhe.vercel.app-818cf8?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117" /></a>
+  <img src="./cards/stats.svg" width="100%" alt="GitHub stats" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=818CF8&center=true&vCenter=true&width=700&lines=Frontend-focused+Web+Developer;React+%7C+Next.js+%7C+TypeScript;Building+clean+and+practical+web+products" />
-</p>
-
-## About Me
-
-I build modern web applications with a strong focus on frontend experience, responsive UI, and practical product delivery.
-
-- Frontend-focused with experience in `React`, `Next.js`, `Vue`, and `TypeScript`
-- Comfortable working across the stack with `Node.js`, `MongoDB`, `MySQL`, and `Docker`
-- Experienced in client work, internal tools, and real-world product development.
-
-## Highlight Projects
-
-- `Academix`: AI-powered training and marketplace platform
-- `EcoFit`: Full-stack ecommerce project built independently
-- Client projects: LMS portal and U.S. real estate website
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/projects?username=punhe&theme=midnight&style=aura" width="100%" alt="Projects" />
-</p>
-
-## Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vue,nuxtjs,nodejs,mongodb,mysql,docker,git,github&perline=7" />
-</p>
-
-## GitHub Stats
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/stats?username=punhe&theme=midnight&style=aura" width="100%" alt="GitHub Stats" />
+  <img src="./cards/activity.svg" width="100%" alt="Contribution activity" />
 </p>
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/heatmap?username=punhe&theme=midnight&style=aura" width="100%" alt="Contribution Activity" />
+  <img src="./cards/projects.svg" width="100%" alt="Featured projects: Academix, EcoFit, client projects" />
 </p>
 
 <p align="center">
-  Open to Web Developer, Frontend Developer, and Full Stack opportunities.
+  <img src="./cards/stack.svg" width="100%" alt="Tech stack" />
+</p>
+
+<p align="center">
+  <a href="mailto:hunglm410.dev@gmail.com"><img src="https://img.shields.io/badge/Email-hunglm410.dev%40gmail.com-7ee787?style=flat-square&labelColor=161b22" alt="Email" /></a>
+  <a href="https://punhe.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-punhe.vercel.app-7ee787?style=flat-square&labelColor=161b22" alt="Portfolio" /></a>
+  <img src="https://img.shields.io/badge/Open_to-Frontend_%7C_Full_Stack_roles-7ee787?style=flat-square&labelColor=161b22" alt="Open to Frontend and Full Stack roles" />
 </p>
 
 ---
@@ -75,7 +50,5 @@ I build modern web applications with a strong focus on frontend experience, resp
 ---
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/social?username=punhe&theme=midnight&style=aura" width="100%" alt="Connect" />
+  <img src="./cards/quote.svg" width="100%" alt="Building clean and practical web products." />
 </p>
-
-<p align="center"><b>⭐️ Feel free to check out my projects and get in touch! ⭐️</b></p>

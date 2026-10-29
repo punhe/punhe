@@ -13,7 +13,7 @@
 <line x1="420" y1="22" x2="420" y2="74" stroke="#232b35"/>
     <circle cx="466" cy="48" r="19" fill="#132018"/>
     <polyline points="456,48 461,48 464,40 468,56 471,48 476,48" fill="none" stroke="#7ee787" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="496" y="47" font-size="24" font-weight="700" fill="#e6edf3">948</text>
+    <text x="496" y="47" font-size="24" font-weight="700" fill="#e6edf3">950</text>
     <text x="497" y="66" font-size="12" fill="#8b949e">Contributions (last year)</text>
 <line x1="630" y1="22" x2="630" y2="74" stroke="#232b35"/>
     <circle cx="676" cy="48" r="19" fill="#132018"/>
